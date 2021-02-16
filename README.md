@@ -16,7 +16,7 @@ A Java Calculator app with sample test cases
 - add this line near 1st line
 -     <packaging>war</packaging>
 
-
+- add these lines near the plugin codes
 -      <plugin>
 -         <artifactId>maven-war-plugin</artifactId>
 -         <version>2.4</version>
