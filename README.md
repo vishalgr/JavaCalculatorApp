@@ -9,3 +9,13 @@ A Java Calculator app with sample test cases
    - run as ->  maven build ->
      - goal: clean verify
      - goal: clean install
+
+- TO build a WAR file
+- got to pom.xml and add the following code
+- <plugin>
+- <artifactId>maven-war-plugin</artifactId>
+- <version>2.4</version>
+-   <configuration>
+-       <failOnMissingWebXml>false</failOnMissingWebXml>
+-    </configuration>
+- </plugin>
