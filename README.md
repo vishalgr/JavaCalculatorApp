@@ -12,10 +12,15 @@ A Java Calculator app with sample test cases
 
 - TO build a WAR file
 - got to pom.xml and add the following code
-- <plugin>
-- <artifactId>maven-war-plugin</artifactId>
-- <version>2.4</version>
--   <configuration>
+
+- add this line near 1st line
+-   <packaging>war</packaging>
+
+
+-   <plugin>
+-   <artifactId>maven-war-plugin</artifactId>
+-   <version>2.4</version>
+-     <configuration>
 -       <failOnMissingWebXml>false</failOnMissingWebXml>
--    </configuration>
-- </plugin>
+-      </configuration>
+-    </plugin>
